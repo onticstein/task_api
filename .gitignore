@@ -1,0 +1,79 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.swp
+*.swo
+
+# Django
+*.log
+db.sqlite3
+db.sqlite3-journal
+*.pot
+*.py[cod]
+*.cover
+*.mo
+*.pot
+*.py[cod]
+*.pyo
+*.env
+.env
+*.db
+
+# Virtual environments
+venv/
+env/
+venv.bak/
+
+# Pip dependency files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Byte-compiled and log files
+*.log
+
+# Static files
+/staticfiles/
+/mediafiles/
+
+# Local settings
+local_settings.py
+
+# IDEs and editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Deployment
+*.pid
+*.seed
+*.lock
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
